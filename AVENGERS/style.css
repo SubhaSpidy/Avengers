@@ -1,0 +1,103 @@
+body {
+  background-image:url("https://exchange4media.gumlet.io/news-photo/1524838599_r2oBUW_Picture-Avengers.jpg?w=400&dpr=2.6") ;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  height: 100vh ;
+}
+
+
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f44336;
+    margin-top: 20px;
+  }
+
+  h2 {
+    color: lightblue;
+  }
+  p {
+    front: size 10px;
+  }
+
+  
+  #avengers-info {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  #avengers-info h2 {
+    color: #4CAF50;
+  }
+  
+  #avengers-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .avenger {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .avenger:hover {
+    transform: scale(1.05);
+  }
+  
+  .avenger img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+
+  .avenger h3 {
+    color: #f44336;
+  }
+  
+  .avenger p {
+    color: #555555;
+  }
+  
+  /* Individual character page styles */
+  
+  .ironman-page {
+    background-color: #ffcc00;
+  }
+  
+  .captainamerica-page {
+    background-color: #002f6c;
+  }
+    .thor-page {
+        background-color:#555555;
+    }
+    .hulk-page {
+        background-color:#4CAF50;
+    }
+    .blackwidow-page {
+        background-color: rgb(185, 185, 129);
+    }
+    .hawkeye-page {
+        background-color:rgb(155, 104, 203);
+    }
+
+  /* Add similar styles for Thor, Hulk, Black Widow, and Hawkeye pages */
